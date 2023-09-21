@@ -1,0 +1,42 @@
+header { 
+  background-color: black;
+  width: 100%;
+  height: 85px;
+  display: flex; 
+  align-items: center;
+  justify-content:space-between;
+  position: fixed;
+  z-index: 150;
+}
+
+#logo-link { 
+  margin-left: 20%;
+  cursor: pointer;
+  height: 65px;
+}
+
+#logo { 
+  height: 100%;
+
+}
+
+nav { 
+  width: 244px;
+  height: 100%;
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20%;
+}
+
+.nav-link { 
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  transition: color .15s;
+}
+
+.nav-link:hover { 
+  color: rgb(55,128,255);
+}
+

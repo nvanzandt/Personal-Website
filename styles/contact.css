@@ -1,0 +1,30 @@
+#contact {  
+  width: 60%;
+  padding-top: 5px;
+  margin-bottom: 15%;
+}
+
+#contact h1 { 
+  font-size: 58px;
+  margin: 0px;
+}
+
+#contact h4 {
+  margin-top: 18px;
+  margin-bottom: 0px;
+  font-size: 23px;
+}
+
+#contact-methods {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.contact-link { 
+  text-decoration: none;
+  color: rgb(55,128,255);
+}
+
+.contact-link:hover { 
+  text-decoration: underline;
+}

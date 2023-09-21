@@ -1,0 +1,51 @@
+#about { 
+  min-height: 100vh;
+  width: 60%; 
+  padding-top: 5px;
+  display: flex; 
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#intro { 
+  width: 62%;
+  margin-right: 20px;
+}
+
+#me { 
+  width: 300px;
+}
+
+@media(max-width: 975px) {
+  #about { 
+    flex-direction: column;
+    justify-content: center;  
+  }
+  #intro { 
+    width: 100%;
+    margin-right: 0px;
+    margin-top: 80px;
+  }
+  #me { 
+    margin-top: 20px;
+  }
+}
+
+#hello { 
+  margin: 0px;
+  font-size: 58px;
+}
+
+#name { 
+  margin: 0px;
+  font-size: 58px;
+  color: rgb(55,128,255);
+}
+
+#bio { 
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+

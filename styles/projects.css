@@ -1,0 +1,82 @@
+#projects { 
+  padding-top: 5px;
+  width: 60%;
+  margin-bottom: 15%;
+}
+
+#projects h1 { 
+  font-size: 58px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+#project-grid { 
+  display: grid;
+  column-gap: 40px; 
+  row-gap: 40px;
+}
+
+@media(max-width: 599px) {
+#project-grid { 
+    grid-template-columns: 1fr;
+  }
+}
+
+@media(min-width: 600px) and (max-width: 1399px) {
+  #project-grid { 
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media(min-width: 1140px) {
+  #project-grid { 
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.project-image { 
+  width: 100%;
+  cursor: pointer;
+  margin-bottom: 11px;
+}
+
+.project-image:hover{
+  transition: all .2s ease-in-out; 
+  scale: 1.09;
+}
+
+.project-image:active {
+  opacity: 0.5;
+}
+
+.project-title { 
+  margin: 0px;
+  font-size: 23px;
+}
+
+.project-description { 
+  margin: 0px;
+  font-size: 18px;
+}
+
+.github-button { 
+  background-color: rgb(55,128,255);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 7px;
+  transition: opacity .15s;
+  cursor: pointer;
+}
+
+.github-button:hover {
+  opacity: 0.8;
+}
+
+.github-button:active {
+  opacity: 0.5;
+}
+
