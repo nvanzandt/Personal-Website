@@ -15,6 +15,7 @@
 
 #me { 
   width: 300px;
+  border-radius: 150px;
 }
 
 @media(max-width: 975px) {
