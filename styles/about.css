@@ -18,6 +18,11 @@
   border-radius: 150px;
 }
 
+#me:hover { 
+  transition: all .2s ease-in-out; 
+  scale: 1.09;
+}
+
 @media(max-width: 975px) {
   #about { 
     flex-direction: column;
