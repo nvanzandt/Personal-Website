@@ -12,8 +12,7 @@
 
 #project-grid { 
   display: grid;
-  column-gap: 40px; 
-  row-gap: 40px;
+  grid-gap: 40px;
 }
 
 @media(max-width: 599px) {
@@ -38,6 +37,7 @@
   width: 100%;
   cursor: pointer;
   margin-bottom: 11px;
+  border: 1px solid black;
 }
 
 .project-image:hover{
