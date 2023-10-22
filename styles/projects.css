@@ -6,11 +6,17 @@
 
 #projects h1 { 
   font-size: 58px;
-  margin-top: 0px;
-  margin-bottom: 30px;
+  margin: 0px;
+}
+
+#description { 
+  margin-top: 27px;
+  margin-bottom: 0px;
+  font-size: 23px;
 }
 
 #project-grid { 
+  margin-top: 23px;
   display: grid;
   grid-gap: 40px;
 }
