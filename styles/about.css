@@ -9,7 +9,7 @@
 }
 
 #intro { 
-  width: 61%;
+  width: 62%;
   margin-right: 20px;
 }
 
@@ -50,8 +50,14 @@
 }
 
 #bio { 
-  font-size: 18px;
+  font-size: 22px;
   margin-bottom: 10px;
+  width: 490px;
 }
 
+@media(max-width: 1308px) {
+  #bio { 
+    width: 100%;
+  }
+}
 
