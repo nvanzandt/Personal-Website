@@ -18,24 +18,18 @@
 #project-grid { 
   margin-top: 23px;
   display: grid;
-  grid-gap: 40px;
+  grid-gap: 50px;
 }
 
-@media(max-width: 599px) {
+@media(max-width: 789px) {
 #project-grid { 
     grid-template-columns: 1fr;
   }
 }
 
-@media(min-width: 600px) and (max-width: 1399px) {
+@media(min-width: 790px) {
   #project-grid { 
     grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media(min-width: 1140px) {
-  #project-grid { 
-    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
@@ -48,7 +42,7 @@
 
 .project-image:hover{
   transition: all .2s ease-in-out; 
-  scale: 1.09;
+  scale: 1.05;
 }
 
 .project-image:active {
@@ -61,8 +55,9 @@
 }
 
 .project-description { 
-  margin: 0px;
-  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-size: 17px;
 }
 
 .github-button { 
