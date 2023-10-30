@@ -42,7 +42,7 @@
 
 .project-image:hover{
   transition: all .2s ease-in-out; 
-  scale: 1.05;
+  transform: scale(1.05);
 }
 
 .project-image:active {
