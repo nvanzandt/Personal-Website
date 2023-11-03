@@ -10,12 +10,12 @@
 }
 
 #contact h4 {
-  margin-top: 27px;
-  margin-bottom: 0px;
+  margin: 0px;
   font-size: 23px;
 }
 
 #contact-methods {
+  margin-top: 25px;
   font-size: 18px;
   line-height: 28px;
 }

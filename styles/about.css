@@ -44,7 +44,8 @@
 }
 
 #name { 
-  margin: 0px;
+  margin-top: -5px;
+  margin-bottom: 0px;
   font-size: 58px;
   color: rgb(55,128,255);
 }
