@@ -79,7 +79,6 @@ p {
   border-radius: 5px;
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
-  margin-top: 8px;
   transition: opacity .15s;
   cursor: pointer;
 }
