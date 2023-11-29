@@ -1,3 +1,7 @@
+p {
+  font-size: 18px;
+}
+
 #projects { 
   padding-top: 5px;
   width: 60%;
@@ -11,7 +15,8 @@
 
 #description { 
   margin: 0px;
-  font-size: 23px;
+  font-size: 26px;
+  font-weight: 400;
 }
 
 #project-grid { 
@@ -36,7 +41,6 @@
   width: 100%;
   cursor: pointer;
   margin-bottom: 11px;
-  border: 1px solid black;
 }
 
 .project-image:hover{
@@ -51,16 +55,25 @@
 .project-title { 
   margin: 0px;
   font-size: 23px;
+  font-weight: 400;
 }
 
 .project-description { 
   margin-top: 5px;
   margin-bottom: 0px;
-  font-size: 17px;
+  font-weight: 100;
+}
+
+.project-details { 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; 
 }
 
 .github-button { 
-  background-color: rgb(55,128,255);
+  background-color: #1694f4;
   color: white;
   border: none;
   padding: 10px;

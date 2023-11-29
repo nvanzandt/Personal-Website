@@ -5,20 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/about.css">
     <link rel="stylesheet" href="styles/projects.css">
     <link rel="stylesheet" href="styles/contact.css">
     <link rel="stylesheet" href="styles/footer.css">
-    <link rel="icon" href="images/icons/NVZ-logo.png">
-    <script src="script.js"></script>
+    <link rel="icon" href="images/icons/NVZ-logo-white.png">
     <title>NVZ</title>
   </head>
   <body>
     <header>
-      <a id="logo-link" href="https://nathanvanzandt.com"><img id="logo" src="images/icons/NVZ-logo.png"></a>
+      <a id="logo-link" href="https://nathanvanzandt.com"><img id="logo" src="images/icons/NVZ-logo-white.png"></a>
       <nav> 
         <a class="nav-link" href="#about">About</a>
         <a class="nav-link" href="#projects">Projects</a>
@@ -30,41 +29,50 @@
         <h2 id="hello">Hello, I'm</h2> 
         <h2 id="name">Nathan Van Zandt</h2>
         <p id="bio">
-          A student studying health science and computer science at Boston University. 
+          A student studying health science and computer science at Boston University. I have a passion for 
+          learning about web application development and applying my knowledge in order to create innovative projects.
         </p>
       </div>
      <img id="me" src="images/profile/me-outside.jpeg">
     </section>
     <section id="projects">
       <h1>Projects</h1>
-      <h4 id="description">Some of my favorite projects</h4>
+      <h4 id="description">Check out some of my favorites</h4>
       <div id="project-grid">
         
         <div class="project">
-          <a href="https://nvanzandt.github.io/Smoothie-Search/">
-            <img class="project-image" src="images/project-images/Smoothie-Search.png">
+          <a >
+            <img class="project-image" src="images/project-images/Bookify.png">
           </a>
-          <h4 class="project-title">Smoothie Search</h4>
+          <h4 class="project-title">Bookify</h4>
           <p class="project-description">
-            A website that utilizes the Edamam Recipe Search API in order to find smoothie recipes 
-            containing specified ingredients.
+            A web application that aims to enhance the reading experience. After a user enters a book title,
+            a playlist inspired by the book's synopsis, genre, mood, setting, language, and themes is generated 
+            and added to the user's Spotify library.
           </p>
-          <a href="https://github.com/nvanzandt/Smoothie-Search">
-            <button class="github-button">Github</button>
-          </a>
+          <div class="project-details">
+            <a href="https://github.com/nvanzandt/CS411group-30/tree/main">
+              <button class="github-button">Github</button>
+            </a> 
+            <p>Flask &nbsp; React &nbsp; SQL</p>
+          </div>
         </div>
           
         <div class="project">
           <a >
-            <img class="project-image" src="images/project-images/Wiki.png" style="cursor:auto">
+            <img class="project-image" src="images/project-images/RateMyGym.png" style="cursor:auto">
           </a>
-          <h4 class="project-title">Wiki</h4>
+          <h4 class="project-title">RateMyGym</h4>
           <p class="project-description"> 
-            A Wikipedia-like web application that allows users to search for, create, and edit entries.
+            BostonHacks2023 project entered under "Inclusive Innovation" track. A web application that allows users to view and create gym reviews based on
+            diversity (gender, age, LGBTQ+), dedication (how dedicated people are), and sense of community (how friendly and supportive people are).
           </p>
-          <a href="https://github.com/nvanzandt/CS50W-Wiki"> 
-            <button class="github-button">Github</button>
-          </a>
+          <div class="project-details">
+            <a href="https://github.com/nvanzandt/BostonHacks2023/tree/main"> 
+              <button class="github-button">Github</button>
+            </a>
+            <p>Node.js &nbsp; Express.js &nbsp; React &nbsp; MongoDB</p>
+          </div>
         </div>
 
       </div>
@@ -72,15 +80,33 @@
     <section id="contact">
       <h1>Contact</h1>
       <h4>Feel free to connect with me through any of the following ways!</h4>
-      <p id="contact-methods">
-        Email: <a class="contact-link" href="mailto: devnvanzandt@gmail.com">devnvanzandt@gmail.com</a> <br>
-        Linkedin: <a class="contact-link" href="https://www.linkedin.com/in/nathan-van-zandt-b24596170/">https://www.linkedin.com/in/nathan-van-zandt-b24596170/</a> <br>
-        Github: <a class="contact-link" href="https://github.com/nvanzandt">https://github.com/nvanzandt</a>
-      </p>
+        <div id="contact-method">
+          <a class="contact-link" href="mailto: devnvanzandt@gmail.com">
+            <img class="contact-icon" src="./images/icons/envelope-fill.svg">
+          </a> 
+          <a class="contact-link" href="mailto: devnvanzandt@gmail.com">
+            devnvanzandt@gmail.com
+          </a> 
+        </div>
+        <div id="contact-method">
+          <a class="contact-link" href="https://www.linkedin.com/in/nathan-van-zandt-b24596170/"> 
+            <img class="contact-icon" src="./images/icons/linkedin.svg">
+          </a>
+          <a class="contact-link" href="https://www.linkedin.com/in/nathan-van-zandt-b24596170/"> 
+            Nathan-Van-Zandt
+          </a>
+        </div>
+        <div id="contact-method">
+          <a class="contact-link" href="https://github.com/nvanzandt">
+            <img class="contact-icon" src="./images/icons/github.svg" >
+          </a>
+          <a class="contact-link" href="https://github.com/nvanzandt">
+            nvanzandt
+          </a>
+        </div>    
     </section>
     <footer>
-      <p> &#169; Nathan Van Zandt 2023 &#x2022; Last edited Oct 21 2023</p>
+      <p> &#169; Nathan Van Zandt 2023 &#x2022; Last edited Nov 29 2023</p>
     </footer>
-    <button id="mode-button"></button>
   </body>
 </html>

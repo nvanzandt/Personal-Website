@@ -12,12 +12,11 @@ header {
 #logo-link { 
   margin-left: 20%;
   cursor: pointer;
-  height: 60px;
+  height: 55px;
 }
 
 #logo { 
   height: 100%;
-
 }
 
 nav { 
@@ -37,6 +36,6 @@ nav {
 }
 
 .nav-link:hover { 
-  color: rgb(55,128,255);
+color: #1694f4;
 }
 

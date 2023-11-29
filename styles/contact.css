@@ -7,22 +7,38 @@
 #contact h1 { 
   font-size: 58px;
   margin: 0px;
+  font-weight: 700;
 }
 
 #contact h4 {
   margin: 0px;
-  font-size: 23px;
+  font-size: 26px;
+  font-weight: 400;
+  margin-bottom: 25px;
 }
 
-#contact-methods {
-  margin-top: 25px;
-  font-size: 18px;
-  line-height: 28px;
+
+#contact-method { 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
 }
 
 .contact-link { 
   text-decoration: none;
-  color: rgb(55,128,255);
+  color: #1694f4;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  display: flex;
+}
+
+.contact-icon { 
+  width: 35px;
+  height: 35px;
+  margin-right: 8px;
 }
 
 .contact-link:hover { 
