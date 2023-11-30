@@ -7,6 +7,7 @@ header {
   justify-content:space-between;
   position: fixed;
   z-index: 150;
+  box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
 }
 
 #logo-link { 
