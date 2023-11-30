@@ -20,9 +20,9 @@ p {
 }
 
 #project-grid { 
-  margin-top: 30px;
+  margin-top: 50px;
   display: grid;
-  grid-gap: 50px;
+  grid-gap: 40px;
 }
 
 @media(max-width: 789px) {
