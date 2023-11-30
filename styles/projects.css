@@ -1,5 +1,5 @@
 p {
-  font-size: 18px;
+  font-size: 17px;
 }
 
 #projects { 
@@ -53,7 +53,7 @@ p {
 
 .project-title { 
   margin: 0px;
-  font-size: 23px;
+  font-size: 22px;
   font-weight: 400;
 }
 
@@ -77,7 +77,7 @@ p {
   border: none;
   padding: 10px;
   border-radius: 5px;
-  font-size: 18px;
+  font-size: 17px;
   font-family: 'Roboto', sans-serif;
   transition: opacity .15s;
   cursor: pointer;
