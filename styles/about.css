@@ -32,7 +32,6 @@
     margin-top: 20px;
   }
 }
-
 #hello { 
   margin: 0px;
   font-size: 50px;
@@ -52,6 +51,16 @@
     line-height: 1.25;
     padding-top: 8px;
     padding-bottom: 6px;
+    width: 266px;
+  }
+}
+
+@media(max-width: 779px) { 
+  #name { 
+    line-height: 1.25;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    width: 266px;
   }
 }
 
