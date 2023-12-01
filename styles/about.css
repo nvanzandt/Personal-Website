@@ -47,11 +47,11 @@
   font-weight: 700;
 }
 
-@media(min-width: 975px) and (max-width: 1312px) {
+@media(min-width: 976px) and (max-width: 1312px) {
   #name { 
     line-height: 1.25;
-    padding-top: 10px;
-    padding-bottom: 5px;
+    padding-top: 8px;
+    padding-bottom: 6px;
   }
 }
 
