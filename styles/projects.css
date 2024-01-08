@@ -31,16 +31,15 @@
   }
 }
 
-.project { 
-  background-color: #181d23;
-  border-radius: 5px;
-}
-
 .project-lower-half { 
   padding-left: 25px; 
   padding-right: 25px;
   padding-bottom: 15px;
-  padding-top: 5px;
+  padding-top: 10px;
+  background-color: #181d23;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-top: -7px;
 }
 
 .project-image { 
@@ -71,6 +70,10 @@
   justify-content: space-between;
   flex-wrap: wrap; 
   font-size: 17px;
+}
+
+.project-details p {
+  margin-right: 10px;
 }
 
 .github-button { 
