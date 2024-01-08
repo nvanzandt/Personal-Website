@@ -5,32 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/about.css">
     <link rel="stylesheet" href="styles/projects.css">
+    <link rel="stylesheet" href="styles/skills.css">
     <link rel="stylesheet" href="styles/contact.css">
     <link rel="stylesheet" href="styles/footer.css">
-    <link rel="icon" href="images/icons/NVZ-logo-white.png">
-    <title>NVZ</title>
+    <link rel="icon" href="images/icons/NVZ-logo.png">
+    <script src="https://kit.fontawesome.com/341e54ffa9.js" crossorigin="anonymous"></script>
+    <title>Nathan Van Zandt</title>
   </head>
   <body>
     <header>
-      <a id="logo-link" href="https://nathanvanzandt.com"><img id="logo" src="images/icons/NVZ-logo-white.png"></a>
+      <a id="logo-link" href="https://nathanvanzandt.com"><img id="logo" src="images/icons/NVZ-logo.png"></a>
       <nav> 
         <a class="nav-link" href="#about">About</a>
         <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#skills">Skills</a>
         <a class="nav-link" href="#contact">Contact</a>
       </nav>
     </header>
     <section id="about">
       <div id="intro">
-        <h2 id="hello">Hello, I'm</h2> 
-        <h2 id="name">Nathan Van Zandt</h2>
+        <h2 id="greeting">Hello, I'm &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; Nathan Van Zandt</h2>
         <p id="bio">
-          A student studying health science and computer science at Boston University. I have a passion for web 
-          application development and am constantly seeking new ways to apply and expand my skills. 
+          I am a student studying health science and computer science at Boston University. I have a passion for software
+          development and I actively seek new ways to apply and expand my skills. Apart from coding, 
+          I enjoy going to the gym, reading, and listening to podcasts.
         </p>
       </div>
      <img id="me" src="images/profile/me-outside.jpeg">
@@ -77,6 +80,26 @@
 
       </div>
     </section>
+    <section id="skills">
+      <h1>Skills</h1>
+      <h3>What I've picked up along the way</h3>
+      <div class="skill-section">
+        <h4>Programming Languages</h4>
+        <div class="line"></div>
+        <p class="specific-skills">JavaScript Python Java</p>
+      </div>
+      <div class="skill-section">
+        <h4>Front-End Development</h4>
+        <div class="line"></div>
+        <p class="specific-skills">HTML CSS</p>
+      </div> 
+      <div class="skill-section">
+        <h4>Back-End Development</h4>
+        <div class="line"></div>
+        <p class="specific-skills">Node.js Express.js Flask</p>
+      </div> 
+
+    </section>
     <section id="contact">
       <h1>Contact</h1>
       <h4>Feel free to connect with me through any of the following ways!</h4>
@@ -90,7 +113,7 @@
         </div>
         <div id="contact-method">
           <a class="contact-link" href="https://www.linkedin.com/in/nathan-van-zandt-b24596170/"> 
-            <img class="contact-icon" src="./images/icons/linkedin.svg">
+            <img class="contact-icon" src="./images/icons/ln.svg">
           </a>
           <a class="contact-link" href="https://www.linkedin.com/in/nathan-van-zandt-b24596170/"> 
             Nathan-Van-Zandt
@@ -98,7 +121,7 @@
         </div>
         <div id="contact-method">
           <a class="contact-link" href="https://github.com/nvanzandt">
-            <img class="contact-icon" src="./images/icons/github.svg" >
+            <img class="contact-icon" src="./images/icons/gh.svg" >
           </a>
           <a class="contact-link" href="https://github.com/nvanzandt">
             nvanzandt
@@ -106,7 +129,6 @@
         </div>    
     </section>
     <footer>
-      <p>Designed and Developed by Nathan Van Zandt</p>
       <p> &#169; Nathan Van Zandt 2023</p>
     </footer>
   </body>
