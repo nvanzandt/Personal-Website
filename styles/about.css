@@ -1,6 +1,7 @@
 #about { 
   min-height: 100vh;
-  width: 60%; 
+  width: 65%; 
+  max-width: 1070px;
   padding-top: 5px;
   display: flex; 
   align-items: center;
@@ -10,12 +11,13 @@
 
 #intro { 
   width: 62%;
-  margin-right: 20px;
+  margin-right: 40px;
 }
 
 #me { 
   width: 300px;
-  border-radius: 150px;
+  box-shadow: -20px 20px rgba(22,148,244,1);
+  border-radius: 5px;
 }
 
 @media(max-width: 975px) {
@@ -32,45 +34,20 @@
     margin-top: 20px;
   }
 }
-#hello { 
+#greeting { 
   margin: 0px;
-  font-size: 50px;
+  width: 410px;
+  font-size: 45px;
   font-weight: 700;
-}
-
-#name { 
-  margin-top: -12px;
-  margin-bottom: 0px;
-  font-size: 58px;
-  color: #1694f4;
-  font-weight: 700;
-}
-
-@media(min-width: 976px) and (max-width: 1312px) {
-  #name { 
-    line-height: 1.25;
-    padding-top: 8px;
-    padding-bottom: 6px;
-    width: 266px;
-  }
-}
-
-@media(max-width: 779px) { 
-  #name { 
-    line-height: 1.25;
-    padding-top: 8px;
-    padding-bottom: 6px;
-    width: 266px;
-  }
 }
 
 #bio { 
-  margin-top: 0px;
-  font-size: 18px;
+  margin-top: 15px;
+  font-size: 17px;
   margin-bottom: 10px;
   width: 100%;
   max-width: 590px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 @media(max-width: 1308px) {

@@ -4,16 +4,14 @@ header {
   height: 85px;
   display: flex; 
   align-items: center;
-  justify-content:space-between;
   position: fixed;
-  z-index: 150;
-  box-shadow: 0 0px 10px 0px rgba(0,0,0,0.5);
+  z-index: 150
 }
 
 #logo-link { 
-  margin-left: 20%;
+  margin-left: 18%;
   cursor: pointer;
-  height: 50px;
+  height: 40px;
 }
 
 #logo { 
@@ -21,22 +19,22 @@ header {
 }
 
 nav { 
-  width: 230px;
+  width: 260px;
   height: 100%;
   display: flex; 
   align-items: center;
   justify-content: space-between;
-  margin-right: 20%;
+  margin-left: 17px;
 }
 
 .nav-link { 
-  font-size: 18px;
+  font-size: 17px;
   color: white;
   text-decoration: none;
   transition: color .15s;
 }
 
 .nav-link:hover { 
-color: #1694f4;
+text-decoration: underline;
 }
 
