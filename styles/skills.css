@@ -1,0 +1,38 @@
+#skills {  
+  width: 65%;
+  padding-top: 5px;
+  margin-bottom: 15%;
+}
+
+#skills h1 { 
+  font-size: 45px;
+  margin: 0px;
+  font-weight: 700;
+}
+
+.skill-section { 
+  height: 125px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #3a4351;
+}
+
+#skills h4 {
+  font-size: 22px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.line { 
+  border-bottom: 1px solid #1694f4;
+    width: 300px;
+    margin: 10px;
+}
+
+.specific-skills { 
+  font-weight:300;
+  margin: 0px;
+}
