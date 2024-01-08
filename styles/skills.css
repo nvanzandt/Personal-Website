@@ -3,25 +3,35 @@
   max-width: 1070px;
   padding-top: 5px;
   margin-bottom: 15%;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
 }
 
 #skills h1 { 
   font-size: 45px;
-  margin: 0px;
   font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 25px;
 }
 
 .skill-section { 
-  height: 125px;
   margin-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #3a4351;
+  background-color: #303743;  
+  width: 100%;
+  max-width: 900px;
+  padding-top: 22px;
+  padding-left: 27px;
+  padding-bottom: 27px;
+  padding-right: 27px;
+  border-radius: 5px;
 }
 
-#skills h4 {
+.skill-category {
   font-size: 22px;
   font-weight: 500;
   margin: 0px;
@@ -29,11 +39,11 @@
 
 .line { 
   border-bottom: 1px solid #1694f4;
-    width: 300px;
-    margin: 10px;
+  width: 300px;
+  margin: 10px;
 }
 
 .specific-skills { 
-  font-weight:300;
+  font-weight: 300;
   margin: 0px;
 }

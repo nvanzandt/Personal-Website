@@ -4,13 +4,13 @@
   max-width: 1070px;
   padding-top: 5px;
   display: flex; 
-  align-items: center;
   flex-direction: row;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
 }
 
 #intro { 
-  width: 62%;
+  width: 100%;
   margin-right: 40px;
 }
 
@@ -20,18 +20,17 @@
   border-radius: 5px;
 }
 
-@media(max-width: 975px) {
+@media(max-width: 1150px) {
   #about { 
     flex-direction: column;
-    justify-content: center;  
   }
   #intro { 
-    width: 100%;
     margin-right: 0px;
-    margin-top: 80px;
+    margin-top: 15%;
+    max-width: 570px;
   }
   #me { 
-    margin-top: 20px;
+    margin-top: 30px;
   }
 }
 #greeting { 
