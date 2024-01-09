@@ -4,14 +4,22 @@ header {
   height: 85px;
   display: flex; 
   align-items: center;
+  justify-content: center;
   position: fixed;
   z-index: 150
 }
 
-#logo-link { 
-  margin-left: 18%;
-  cursor: pointer;
+#content { 
   height: 40px;
+  max-width: 1050px;
+  width: calc(100% - 80px);
+  display: flex; 
+  align-items: center; 
+}
+
+#logo-link { 
+  cursor: pointer;
+  height: 100%;
 }
 
 #logo { 
