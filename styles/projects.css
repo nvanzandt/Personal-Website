@@ -1,7 +1,7 @@
 #projects { 
   max-width: 1050px;
   width: calc(100% - 80px);
-  margin-bottom: min(15%, 150px);
+  margin-bottom: min(15%, 125px);
   display: flex;
   flex-direction: column; 
   align-items: center;

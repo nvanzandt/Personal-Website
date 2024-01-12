@@ -1,6 +1,6 @@
 #skills { 
   width: calc(100% - 80px); 
-  margin-bottom: min(15%, 150px);
+  margin-bottom: min(15%, 125px);
   flex-direction: column;
   align-items: center;
   display: flex;
