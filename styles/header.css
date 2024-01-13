@@ -39,7 +39,6 @@ nav {
   font-size: 17px;
   color: white;
   text-decoration: none;
-  transition: color .15s;
 }
 
 .nav-link:hover { 
