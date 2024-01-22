@@ -1,5 +1,5 @@
 #projects { 
-  max-width: 1050px;
+  max-width: 1180px;
   width: calc(100% - 80px);
   margin-bottom: min(15%, 150px);
   display: flex;
@@ -8,7 +8,7 @@
 }
 
 #projects h1 { 
-  font-size: 45px;
+  font-size: 55px;
   margin-top: 0px;
   margin-bottom: 45px;
 }
