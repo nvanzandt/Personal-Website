@@ -21,7 +21,7 @@
 /* Make project grid 1 column */
 @media(max-width: 869px) {
 #project-grid { 
-    max-width: 505px;
+    max-width: 570px;
     grid-template-columns: 1fr;
   }
 }
